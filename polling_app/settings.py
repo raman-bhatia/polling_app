@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -77,6 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
+        #/Users/ramanpreetbhatia/opt/anaconda3/envs/django/lib/python3.10/site-packages/django/db/backends/sqlite3',
+        #BASE_DIR / 'db.sqlite3',
     }
 }
 
